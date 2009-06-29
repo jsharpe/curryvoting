@@ -1,3 +1,9 @@
+  <% for curryhouse in @event.curryhouses %>
+    <div>
+         <%= check_box_tag "vote[curryhouse_ids][]", curryhouse.id, @vote.curryhouse_ids.include?(curryhouse.id), :disabled => true %>
+	      <%= curryhouse.title %>
+	        </div>
+		  <% end %>
 
 <%= link_to 'Edit', edit_event_vote_path(@event,@vote) %> |
 <%= link_to 'Back', event_votes_path %>

@@ -3,8 +3,14 @@
 
   <p>
   <%=
-     select_tag "vote[curryhouse_ids][]", options_from_collection_for_select(@event.curryhouses, "id", "title"), :multiple => true
+#     select_tag "vote[curryhouse_ids][]", options_from_collection_for_select(@event.curryhouses, "id", "title"), :multiple => true
   %>
+  <% for curryhouse in @event.curryhouses %>
+  <div>
+     <%= check_box_tag "vote[curryhouse_ids][]", curryhouse.id, @vote.curryhouse_ids.include?(curryhouse.id) %>
+     <%= curryhouse.title %>
+  </div>
+  <% end %>
   </p>
   <p>
       <%= f.submit button_name %>
