@@ -5,7 +5,9 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :curryhouses
 
   map.resources :events, :has_many => :votes
+  map.connect 'event/:id/votes/:id', :controller => :votesfor, :action => 'show'
 
+  map.root :controller => ":user_sessions", :action => "new"
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

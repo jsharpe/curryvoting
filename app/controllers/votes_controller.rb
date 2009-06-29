@@ -1,6 +1,8 @@
 class VotesController < ApplicationController
   before_filter :load_event
 
+  before_filter :require_user, :only => [:create, :new, :edit]
+
   def load_event
     @event = Event.find(params[:event_id])
   end
