@@ -10,9 +10,16 @@
 </head>
 <body>
 
+<div class="outer">
+<div class="logo">
+<img src="/images/curry.png" width=50%/>
+</div>
+<div class="inner">
 <p style="color: green"><%= flash[:notice] %></p>
 
 <%= yield %>
 
+</div>
+</div>
 </body>
 </html>

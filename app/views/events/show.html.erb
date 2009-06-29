@@ -1,4 +1,11 @@
 <div class="Event details">
+
+<p>
+Please vote for this months curry night below:
+</p>
+
+<div class="dates">
+
 <p>
   <b>Startdate:</b>
   <%=h @event.startdate %>
@@ -9,11 +16,17 @@
   <%=h @event.enddate %>
 </p>
 
+</div>
+
+<div class="curryhouse-list">
 <p>
   <% @event.curryhouses.each do |curryhouse|%>
   	<p>
   	<%=h curryhouse.title %>
-	Num Votes:
+	<br />
+	<%=h curryhouse.description %>
+	<br />
+	Current Votes:
 	<%
 	count = 0
 	Vote.find(:all, :conditions => {:event_id => @event}).map(&:curryhouse_ids).flatten!.each { |v| count = count +1 if v==curryhouse.id }%>
@@ -23,6 +36,11 @@
   %>
 </p>
 
+</div>
+</div>
+
+<div class="map">
+<!-- TODO google-maps integration -->
 </div>
 
 <div class="vote-form">
