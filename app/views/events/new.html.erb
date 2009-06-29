@@ -1,0 +1,23 @@
+<h1>New event</h1>
+
+<% form_for(@event) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :startdate %><br />
+    <%= f.date_select :startdate %>
+  </p>
+  <p>
+    <%= f.label :enddate %><br />
+    <%= f.date_select :enddate %>
+  </p>
+  <p>
+  <%= collection_multiple_select('event', 'curryhouse_ids', Curryhouse.find(:all), :id, :title) %>
+
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', events_path %>

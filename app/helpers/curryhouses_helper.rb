@@ -1,0 +1,2 @@
+module CurryhousesHelper
+end

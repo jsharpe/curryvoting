@@ -1,0 +1,28 @@
+<p>
+  <b>Title:</b>
+  <%=h @curryhouse.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @curryhouse.description %>
+</p>
+
+<p>
+  <b>Postcode:</b>
+  <%=h @curryhouse.postcode %>
+</p>
+
+<p>
+  <b>Phone number:</b>
+  <%=h @curryhouse.phone_number %>
+</p>
+
+<p>
+  <b>Website:</b>
+  <%=h @curryhouse.website %>
+</p>
+
+
+<%= link_to 'Edit', edit_curryhouse_path(@curryhouse) %> |
+<%= link_to 'Back', curryhouses_path %>

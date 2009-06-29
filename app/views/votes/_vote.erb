@@ -1,0 +1,12 @@
+<% form_for([@event,@vote]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+  <%=
+     select_tag "vote[curryhouse_ids][]", options_from_collection_for_select(@event.curryhouses, "id", "title"), :multiple => true
+  %>
+  </p>
+  <p>
+      <%= f.submit button_name %>
+  </p>
+<% end %>

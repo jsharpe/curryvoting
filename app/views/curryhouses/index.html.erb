@@ -1,0 +1,28 @@
+<h1>Listing curryhouses</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Postcode</th>
+    <th>Phone number</th>
+    <th>Website</th>
+  </tr>
+
+<% @curryhouses.each do |curryhouse| %>
+  <tr>
+    <td><%=h curryhouse.title %></td>
+    <td><%=h curryhouse.description %></td>
+    <td><%=h curryhouse.postcode %></td>
+    <td><%=h curryhouse.phone_number %></td>
+    <td><%=h curryhouse.website %></td>
+    <td><%= link_to 'Show', curryhouse %></td>
+    <td><%= link_to 'Edit', edit_curryhouse_path(curryhouse) %></td>
+    <td><%= link_to 'Destroy', curryhouse, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New curryhouse', new_curryhouse_path %>

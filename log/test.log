@@ -1,0 +1,142 @@
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "curryhousechoices" [0m
+
+
+Processing CurryhousechoicesController#create (for 0.0.0.0 at 2009-06-27 20:34:30) [POST]
+  Parameters: {"curryhousechoice"=>{}}
+  [4;35;1mCurryhousechoice Create (0.7ms)[0m   [0mINSERT INTO "curryhousechoices" ("updated_at", "created_at") VALUES('2009-06-27 19:34:30', '2009-06-27 19:34:30')[0m
+Redirected to http://test.host/curryhousechoices/1
+Completed in 11ms (DB: 4) | 302 Found [http://test.host/curryhousechoices?]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "curryhousechoices" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "curryhousechoices" [0m
+
+
+Processing CurryhousechoicesController#index (for 0.0.0.0 at 2009-06-27 20:34:30) [GET]
+  [4;36;1mCurryhousechoice Load (0.5ms)[0m   [0;1mSELECT * FROM "curryhousechoices" [0m
+Rendering template within layouts/curryhousechoices
+Rendering curryhousechoices/index
+Completed in 9ms (View: 7, DB: 1) | 200 OK [http://test.host/curryhousechoices]
+
+
+Processing CurryhousechoicesController#new (for 0.0.0.0 at 2009-06-27 20:34:30) [GET]
+Rendering template within layouts/curryhousechoices
+Rendering curryhousechoices/new
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/curryhousechoices/new]
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "curryhouses" [0m
+
+
+Processing CurryhousesController#create (for 0.0.0.0 at 2009-06-27 20:34:30) [POST]
+  Parameters: {"curryhouse"=>{}}
+Rendering template within layouts/curryhouses
+Rendering curryhouses/new
+Completed in 24ms (View: 11, DB: 1) | 200 OK [http://test.host/curryhouses?]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "curryhouses" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "curryhouses" [0m
+  [4;36;1mCurryhouse Load (0.6ms)[0m   [0;1mSELECT * FROM "curryhouses" WHERE ("curryhouses"."id" = 953125641) [0m
+
+
+Processing CurryhousesController#destroy (for 0.0.0.0 at 2009-06-27 20:34:30) [DELETE]
+  Parameters: {"id"=>"953125641"}
+  [4;35;1mCurryhouse Load (0.7ms)[0m   [0mSELECT * FROM "curryhouses" WHERE ("curryhouses"."id" = 953125641) [0m
+  [4;36;1mCurryhouse Destroy (0.6ms)[0m   [0;1mDELETE FROM "curryhouses" WHERE "id" = 953125641[0m
+Redirected to http://test.host/curryhouses
+Completed in 4ms (DB: 3) | 302 Found [http://test.host/curryhouses/953125641]
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "curryhouses" [0m
+  [4;36;1mCurryhouse Load (0.7ms)[0m   [0;1mSELECT * FROM "curryhouses" WHERE ("curryhouses"."id" = 953125641) [0m
+
+
+Processing CurryhousesController#edit (for 0.0.0.0 at 2009-06-27 20:34:30) [GET]
+  Parameters: {"id"=>"953125641"}
+  [4;35;1mCurryhouse Load (1.9ms)[0m   [0mSELECT * FROM "curryhouses" WHERE ("curryhouses"."id" = 953125641) [0m
+Rendering template within layouts/curryhouses
+Rendering curryhouses/edit
+Completed in 127ms (View: 11, DB: 3) | 200 OK [http://test.host/curryhouses/953125641/edit]
+
+
+Processing CurryhousesController#index (for 0.0.0.0 at 2009-06-27 20:34:30) [GET]
+  [4;36;1mCurryhouse Load (0.9ms)[0m   [0;1mSELECT * FROM "curryhouses" [0m
+Rendering template within layouts/curryhouses
+Rendering curryhouses/index
+Completed in 10ms (View: 7, DB: 1) | 200 OK [http://test.host/curryhouses]
+
+
+Processing CurryhousesController#new (for 0.0.0.0 at 2009-06-27 20:34:30) [GET]
+Rendering template within layouts/curryhouses
+Rendering curryhouses/new
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/curryhouses/new]
+  [4;35;1mCurryhouse Load (0.7ms)[0m   [0mSELECT * FROM "curryhouses" WHERE ("curryhouses"."id" = 953125641) [0m
+
+
+Processing CurryhousesController#show (for 0.0.0.0 at 2009-06-27 20:34:30) [GET]
+  Parameters: {"id"=>"953125641"}
+  [4;36;1mCurryhouse Load (0.7ms)[0m   [0;1mSELECT * FROM "curryhouses" WHERE ("curryhouses"."id" = 953125641) [0m
+Rendering template within layouts/curryhouses
+Rendering curryhouses/show
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://test.host/curryhouses/953125641]
+  [4;35;1mCurryhouse Load (0.7ms)[0m   [0mSELECT * FROM "curryhouses" WHERE ("curryhouses"."id" = 953125641) [0m
+
+
+Processing CurryhousesController#update (for 0.0.0.0 at 2009-06-27 20:34:30) [PUT]
+  Parameters: {"id"=>"953125641", "curryhouse"=>{}}
+  [4;36;1mCurryhouse Load (0.7ms)[0m   [0;1mSELECT * FROM "curryhouses" WHERE ("curryhouses"."id" = 953125641) [0m
+Rendering template within layouts/curryhouses
+Rendering curryhouses/edit
+Completed in 14ms (View: 8, DB: 1) | 200 OK [http://test.host/curryhouses/953125641?]
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM "events" [0m
+
+
+Processing EventsController#create (for 0.0.0.0 at 2009-06-27 20:34:30) [POST]
+  Parameters: {"event"=>{}}
+Rendering template within layouts/events
+Rendering events/new
+Completed in 54ms (View: 45, DB: 1) | 200 OK [http://test.host/events?]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "events" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM "events" [0m
+  [4;36;1mEvent Load (0.5ms)[0m   [0;1mSELECT * FROM "events" WHERE ("events"."id" = 953125641) [0m
+
+
+Processing EventsController#destroy (for 0.0.0.0 at 2009-06-27 20:34:30) [DELETE]
+  Parameters: {"id"=>"953125641"}
+  [4;35;1mEvent Load (0.8ms)[0m   [0mSELECT * FROM "events" WHERE ("events"."id" = 953125641) [0m
+  [4;36;1mEvent Destroy (0.7ms)[0m   [0;1mDELETE FROM "events" WHERE "id" = 953125641[0m
+Redirected to http://test.host/events
+Completed in 5ms (DB: 3) | 302 Found [http://test.host/events/953125641]
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM "events" [0m
+  [4;36;1mEvent Load (0.6ms)[0m   [0;1mSELECT * FROM "events" WHERE ("events"."id" = 953125641) [0m
+
+
+Processing EventsController#edit (for 0.0.0.0 at 2009-06-27 20:34:30) [GET]
+  Parameters: {"id"=>"953125641"}
+  [4;35;1mEvent Load (0.7ms)[0m   [0mSELECT * FROM "events" WHERE ("events"."id" = 953125641) [0m
+Rendering template within layouts/events
+Rendering events/edit
+Completed in 16ms (View: 14, DB: 2) | 200 OK [http://test.host/events/953125641/edit]
+
+
+Processing EventsController#index (for 0.0.0.0 at 2009-06-27 20:34:30) [GET]
+  [4;36;1mEvent Load (0.7ms)[0m   [0;1mSELECT * FROM "events" [0m
+Rendering template within layouts/events
+Rendering events/index
+Completed in 10ms (View: 8, DB: 1) | 200 OK [http://test.host/events]
+
+
+Processing EventsController#new (for 0.0.0.0 at 2009-06-27 20:34:30) [GET]
+Rendering template within layouts/events
+Rendering events/new
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/events/new]
+  [4;35;1mEvent Load (1.4ms)[0m   [0mSELECT * FROM "events" WHERE ("events"."id" = 953125641) [0m
+
+
+Processing EventsController#show (for 0.0.0.0 at 2009-06-27 20:34:30) [GET]
+  Parameters: {"id"=>"953125641"}
+  [4;36;1mEvent Load (0.7ms)[0m   [0;1mSELECT * FROM "events" WHERE ("events"."id" = 953125641) [0m
+Rendering template within layouts/events
+Rendering events/show
+Completed in 6ms (View: 4, DB: 2) | 200 OK [http://test.host/events/953125641]
+  [4;35;1mEvent Load (0.7ms)[0m   [0mSELECT * FROM "events" WHERE ("events"."id" = 953125641) [0m
+
+
+Processing EventsController#update (for 0.0.0.0 at 2009-06-27 20:34:30) [PUT]
+  Parameters: {"event"=>{}, "id"=>"953125641"}
+  [4;36;1mEvent Load (0.6ms)[0m   [0;1mSELECT * FROM "events" WHERE ("events"."id" = 953125641) [0m
+Redirected to http://test.host/events/953125641
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/events/953125641?]

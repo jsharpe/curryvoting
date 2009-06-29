@@ -1,0 +1,6 @@
+<h1>Editing vote</h1>
+
+<%= render :partial => @vote, :locals => { :button_name => "Vote" } %> 
+
+<%= link_to 'Show', [@event,@vote] %> |
+<%= link_to 'Back', event_votes_path(@event) %>

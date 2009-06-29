@@ -1,0 +1,36 @@
+<div class="Event details">
+<p>
+  <b>Startdate:</b>
+  <%=h @event.startdate %>
+</p>
+
+<p>
+  <b>Enddate:</b>
+  <%=h @event.enddate %>
+</p>
+
+<p>
+  <% @event.curryhouses.each do |curryhouse|%>
+  	<p>
+  	<%=h curryhouse.title %>
+	Num Votes:
+	<%
+	count = 0
+	Vote.find(:all, :conditions => {:event_id => @event}).map(&:curryhouse_ids).flatten!.each { |v| count = count +1 if v==curryhouse.id }%>
+	<%=h count %>
+	</p>
+      <%end
+  %>
+</p>
+
+</div>
+
+<div class="vote-form">
+<p>
+  <h3>Vote</h3>
+  <%= render :partial => @vote = Vote.new, :locals => { :button_name => "Vote" } %>
+</p>
+
+</div>
+
+<%= link_to 'Edit', edit_event_path(@event) %> 
