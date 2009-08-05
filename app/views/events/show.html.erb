@@ -4,45 +4,43 @@
 Please vote for this months curry night below:
 </p>
 
-<div class="dates">
-
-<p>
-  <b>Startdate:</b>
-  <%=h @event.startdate %>
-</p>
-
-<p>
-  <b>Enddate:</b>
-  <%=h @event.enddate %>
-</p>
-
-</div>
 
 <div class="curryhouse-list">
-<p>
+<!--<p>
   <% @event.curryhouses.each do |curryhouse|%>
   	<p>
   	<%=h curryhouse.title %>
 	<br />
 	<%=h curryhouse.description %>
-	<br />
-	Current Votes:
-	<%
-	count = 0
-	Vote.find(:all, :conditions => {:event_id => @event}).map(&:curryhouse_ids).flatten!.each { |v| count = count +1 if v==curryhouse.id }%>
-	<%=h count %>
 	</p>
-      <%end
-  %>
+      <%end%>
+</p>
+-->
+<%= ziya_chart load_chart_url -%>
+</div>
+</div>
+
+<div class="dates">
+
+<p>
+  Select the dates you are not available:
 </p>
 
-</div>
+<% @event.dates.each do |date|
+	if date > Date.today then
+%>
+        <%= check_box_tag "vote[date_ids][]", date.to_s, false %>
+
+	 <%= h date %>
+   <%end
+   end
+   %>
 </div>
 
 <div class="map">
 <!-- TODO google-maps integration -->
 </div>
-
+<% if @event.votingopen %>
 <div class="vote-form">
 <p>
   <h3>Vote</h3>
@@ -50,5 +48,15 @@ Please vote for this months curry night below:
 </p>
 
 </div>
-
-<%= link_to 'Edit', edit_event_path(@event) %> 
+<% else %>
+<p>
+Voting is closed for this month!
+</p>
+<%end%>
+<%= link_to 'Edit', edit_event_path(@event) %>
+<%= if @event.votingopen
+	link_to 'Close Voting', closevoting_event_path(@event)
+    else
+    	link_to 'Open Voting', openvoting_event_path
+    end
+%>

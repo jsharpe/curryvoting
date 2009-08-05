@@ -1,7 +1,7 @@
 class VotesController < ApplicationController
   before_filter :load_event
 
-  before_filter :require_user, :only => [:create, :new, :edit]
+  #before_filter :require_user, :only => [:create, :new, :edit]
 
   def load_event
     @event = Event.find(params[:event_id])
@@ -29,17 +29,6 @@ class VotesController < ApplicationController
     end
   end
 
-  # GET /votes/new
-  # GET /votes/new.xml
-  def new
-    @vote = Vote.new
-
-    respond_to do |format|
-      format.html # new.html.erb
-      format.xml  { render :xml => @vote }
-    end
-  end
-
   # GET /votes/1/edit
   def edit
     @vote = Vote.find(params[:id])
@@ -53,8 +42,8 @@ class VotesController < ApplicationController
     @vote.curryhouse_ids = params[:vote][:curryhouse_ids]
     respond_to do |format|
       if @vote.save
-        flash[:notice] = 'Vote was successfully created.'
-        format.html { redirect_to([@event,@vote]) }
+        flash[:notice] = 'Vote was successfully cast.'
+        format.html { redirect_to @event }
         format.xml  { render :xml => @vote, :status => :created, :location => @vote }
       else
         format.html { render :action => "new" }
@@ -71,7 +60,7 @@ class VotesController < ApplicationController
     respond_to do |format|
       if @vote.update_attributes(params[:vote])
         flash[:notice] = 'Vote was successfully updated.'
-        format.html { redirect_to([@event,@vote]) }
+        format.html { redirect_to @event }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

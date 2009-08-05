@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090627215206) do
+ActiveRecord::Schema.define(:version => 20090805143945) do
 
   create_table "curryhouses", :force => true do |t|
     t.string   "title"
@@ -44,6 +44,7 @@ ActiveRecord::Schema.define(:version => 20090627215206) do
     t.date     "enddate"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "votingopen", :default => false
   end
 
   create_table "votes", :force => true do |t|

@@ -5,6 +5,7 @@
     <th>Startdate</th>
     <th>Enddate</th>
     <th>Num votes</th>
+    <th>Voting Open?</th>
   </tr>
 
 <% @events.each do |event| %>
@@ -12,6 +13,7 @@
     <td><%=h event.startdate %></td>
     <td><%=h event.enddate %></td>
     <td><%=h event.vote_ids.length %></td>
+    <td><%=h event.votingopen %></td>
     <td><%= link_to 'Show', event %></td>
     <td><%= link_to 'Edit', edit_event_path(event) %></td>
     <td><%= link_to 'Destroy', event, :confirm => 'Are you sure?', :method => :delete %></td>

@@ -83,4 +83,42 @@ class EventsController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
+  def openvoting
+  	@event = Event.find(params[:id])
+	@event.votingopen = true
+	@event.save
+	flash[:notice] = "Voting now open!"
+	redirect_to event_path
+  end
+
+  def closevoting
+  	@event = Event.find(params[:id])
+	@event.votingopen = false
+	@event.save
+	flash[:notice] = "Voting now closed"
+	redirect_to event_path
+end
+
+# Load ZiYa necessary helpers
+  helper Ziya::HtmlHelpers::Charts
+  helper Ziya::YamlHelpers::Charts
+
+  def results
+  	@event = Event.find(params[:id])
+	vote_results = Array.new
+	@event.curryhouses.each do |curryhouse|
+		count = 0
+	        Vote.find(@event.votes).map(&:curryhouse_ids).flatten!.each { |v| count = count +1 if v==curryhouse.id } rescue nil
+                vote_results << count
+	end
+
+	chart = Ziya::Charts::Bar.new("BAR", "my_bar")
+	chart.add :axis_category_text, @event.curryhouses.map(&:title)
+	chart.add :series, "Results", vote_results
+	#chart.add :theme, 'swf'
+	respond_to do |format|
+		format.xml { render :xml => chart.to_xml }
+	end
+  end
 end
