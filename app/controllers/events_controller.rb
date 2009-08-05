@@ -1,5 +1,6 @@
 class EventsController < ApplicationController
-  before_filter :authenticate, :only => [:new, :edit, :destroy, :openvoting, :closevoting]
+  before_filter :authenticate, :only => [:show]
+  before_filter [:authenticate, :super_user], :only => [:new, :edit, :destroy, :create, :update, :openvoting, :closevoting]
 
   # GET /events
   # GET /events.xml
@@ -125,10 +126,17 @@ end
   end
 
 private
+  def super_user
+	puts @id
+  	if !(@id.to_i == 1006)
+	    render :inline => "Access Denied", :status=> 401, :layout => false
+	end
+  end
+
   def authenticate
   	require 'password'
 	require 'nis'
-  	authenticate_or_request_with_http_basic do |id, password|
+  	authenticate_or_request_with_http_basic "Curry" do |id, password|
 	  #retrieve the password from NIS
 	  ypdomain = YP.get_default_domain
 	  ans = false
@@ -151,7 +159,8 @@ private
 				end
 				ans = (Password.new(password).crypt(crypttype, salt).eql? val.split(':')[1])
 				@id = val.split(':')[2].to_i
-				puts @id
+				@username = val.split(':')[4]
+				puts @username
 				end
 			end
 		end
