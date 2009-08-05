@@ -1,4 +1,6 @@
 class EventsController < ApplicationController
+  before_filter :authenticate, :only => [:new, :edit, :destroy, :openvoting, :closevoting]
+
   # GET /events
   # GET /events.xml
   def index
@@ -119,6 +121,42 @@ end
 	#chart.add :theme, 'swf'
 	respond_to do |format|
 		format.xml { render :xml => chart.to_xml }
+	end
+  end
+
+private
+  def authenticate
+  	require 'password'
+	require 'nis'
+  	authenticate_or_request_with_http_basic do |id, password|
+	  #retrieve the password from NIS
+	  ypdomain = YP.get_default_domain
+	  ans = false
+	  YP.yp_all(ypdomain, 'passwd.byname') do |status, key, val|
+	  	case status
+		when YP::YPERR_SUCCESS
+			return false
+		else
+			if(key == id)
+				if(val.split(':')[1] == "!") 
+					ans = false
+					ans
+				else
+				if(val.split(':')[1].split('$')[1] == '1')
+					crypttype = Password::MD5
+					salt = (val.split(':')[1]).split('$')[2]
+				else
+					crypttype = Password::DES
+					salt = val.split(':')[1][0..1]
+				end
+				ans = (Password.new(password).crypt(crypttype, salt).eql? val.split(':')[1])
+				@id = val.split(':')[2].to_i
+				puts @id
+				end
+			end
+		end
+	  end
+	  ans
 	end
   end
 end
