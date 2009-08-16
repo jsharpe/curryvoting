@@ -5,6 +5,7 @@
   <%=
 #     select_tag "vote[curryhouse_ids][]", options_from_collection_for_select(@event.curryhouses, "id", "title"), :multiple => true
   %>
+  <%= hidden_field_tag :userid, :value => @vote.userid %>
   <% for curryhouse in @event.curryhouses %>
   <div>
      <%= check_box_tag "vote[curryhouse_ids][]", curryhouse.id, @vote.curryhouse_ids.include?(curryhouse.id) %>

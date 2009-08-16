@@ -44,7 +44,7 @@ Please vote for this months curry night below:
 <div class="vote-form">
 <p>
   <h3>Vote</h3>
-  <%= render :partial => @vote = Vote.new, :locals => { :button_name => "Vote" } %>
+  <%= render :partial => @vote = @myvote, :locals => { :button_name => "Vote" } %>
 </p>
 
 </div>

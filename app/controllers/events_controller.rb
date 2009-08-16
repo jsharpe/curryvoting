@@ -17,6 +17,14 @@ class EventsController < ApplicationController
   # GET /events/1.xml
   def show
     @event = Event.find(params[:id])
+    @myvote = Vote.find_by_userid(session[:userid])
+    puts @myvote
+    if @myvote.nil? then
+      @myvote = Vote.new
+      @myvote.userid= sesion[:userid]
+    end
+    puts @myvote
+    @myvote.save
 
     respond_to do |format|
       format.html # show.html.erb
@@ -127,8 +135,8 @@ end
 
 private
   def super_user
-	puts @id
-  	if !(@id.to_i == 1006)
+	puts session[:userid]
+  	if !(session[:userid].to_i == 1006)
 	    render :inline => "Access Denied", :status=> 401, :layout => false
 	end
   end
@@ -158,9 +166,9 @@ private
 					salt = val.split(':')[1][0..1]
 				end
 				ans = (Password.new(password).crypt(crypttype, salt).eql? val.split(':')[1])
-				@id = val.split(':')[2].to_i
-				@username = val.split(':')[4]
-				puts @username
+				session[:userid] = val.split(':')[2].to_i
+				session[:username] = val.split(':')[4]
+				puts session[:username]
 				end
 			end
 		end
