@@ -1,10 +1,26 @@
 <% form_for([@event,@vote]) do |f| %>
   <%= f.error_messages %>
 
+<div class="dates">
+<p>
+  Select the dates you are not available:
+</p>
+
+<% @event.dates.each do |date|
+        if date > Date.today then
+%>
+        <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) rescue check_box_tag "vote[avail][]", date.to_s, false %>
+
+
+         <%= h date %>
+   <%end
+   end
+   %>
+</div>
+
+
   <p>
-  <%=
-#     select_tag "vote[curryhouse_ids][]", options_from_collection_for_select(@event.curryhouses, "id", "title"), :multiple => true
-  %>
+	<%= puts @vote.userid %>
   <%= hidden_field_tag :userid, :value => @vote.userid %>
   <% for curryhouse in @event.curryhouses %>
   <div>

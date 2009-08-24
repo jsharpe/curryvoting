@@ -4,11 +4,11 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :curryhouses
 
-  map.resources :events, :member => {:openvoting => :get, :closevoting => :get }, :has_many => :votes
+  map.resources :events, :member => {:openvoting => :get, :closevoting => :get, :results => :get }, :has_many => :votes
   #map.connect 'events/:id/openvoting', :controller => 'events', :action => 'openvoting'
   #map.connect 'events/:id/closevoting', :controller => 'events', :action => 'closevoting'
-  map.load_chart '/events/:id/results', :controller => 'events', :action => 'results'
-  map.load_chart '/events/:id/results.:format', :controller => 'events', :action => 'results'
+#  map.load_chart '/events/:id/results', :controller => 'events', :action => 'results'
+#  map.load_chart '/events/:id/results.:format', :controller => 'events', :action => 'results'
 
   #map.root :controller => ":user_sessions", :action => "new"
   

@@ -1,0 +1,1429 @@
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:06:40) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+
+NoMethodError (undefined method `find_by_userid' for #<Class:0x7f9695b57448>):
+  app/controllers/events_controller.rb:20:in `show'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#index (for 127.0.1.1 at 2009-08-24 21:06:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/index
+Completed in 61ms (View: 55, DB: 2) | 200 OK [http://yoda/events/]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:06:56) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+
+NoMethodError (undefined method `find_by_userid' for #<Class:0x7f9695b57448>):
+  app/controllers/events_controller.rb:20:in `show'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:06:57) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+
+NoMethodError (undefined method `find_by_userid' for #<Class:0x7f9695b57448>):
+  app/controllers/events_controller.rb:20:in `show'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:08:14) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+
+NoMethodError (undefined method `find_by_userid' for #<Class:0x7f9695b57448>):
+  app/controllers/events_controller.rb:20:in `show'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#index (for 127.0.1.1 at 2009-08-24 21:08:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/index
+Completed in 18ms (View: 13, DB: 2) | 200 OK [http://yoda/events/]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:08:19) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+
+NoMethodError (undefined method `find_by_userid' for #<Class:0x7f9695b57448>):
+  app/controllers/events_controller.rb:20:in `show'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#index (for 127.0.1.1 at 2009-08-24 21:09:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/index
+Completed in 70ms (View: 56, DB: 3) | 200 OK [http://yoda/events/]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:09:12) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 171ms (View: 42, DB: 8) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:09:13) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 16ms (View: 1, DB: 4) | 200 OK [http://yoda/events/1/results]
+
+
+Processing EventsController#edit (for 127.0.1.1 at 2009-08-24 21:09:19) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/edit
+Completed in 59ms (View: 45, DB: 10) | 200 OK [http://yoda/events/1/edit]
+
+
+Processing EventsController#update (for 127.0.1.1 at 2009-08-24 21:09:38) [PUT]
+  Parameters: {"commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"1", "event"=>{"startdate(1i)"=>"2009", "startdate(2i)"=>"8", "enddate(1i)"=>"2009", "startdate(3i)"=>"5", "enddate(2i)"=>"9", "curryhouse_ids"=>["1", "2", "3", "4", "5", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", ""], "enddate(3i)"=>"5"}, "controller"=>"events"}
+Redirected to http://yoda:3000/events/1
+Completed in 278ms (DB: 26) | 302 Found [http://yoda/events/1]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:09:38) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 191ms (View: 60, DB: 11) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:09:39) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 30ms (View: 1, DB: 9) | 200 OK [http://yoda/events/1/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 21:09:47) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["9", "13"]}, "commit"=>"Vote", "event_id"=>"1", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"2", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/1
+Completed in 135ms (DB: 6) | 302 Found [http://yoda/events/1/votes/2]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:09:48) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 84ms (View: 61, DB: 11) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:09:48) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 31ms (View: 1, DB: 9) | 200 OK [http://yoda/events/1/results]
+
+
+Processing EventsController#index (for 127.0.1.1 at 2009-08-24 21:09:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/index
+Completed in 222ms (View: 198, DB: 20) | 200 OK [http://yoda/events]
+
+
+Processing EventsController#index (for 127.0.1.1 at 2009-08-24 21:12:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/index
+Completed in 18ms (View: 13, DB: 2) | 200 OK [http://yoda/events]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:12:11) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 92ms (View: 69, DB: 11) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:12:12) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 32ms (View: 1, DB: 9) | 200 OK [http://yoda/events/1/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 21:12:14) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["9", "13"]}, "commit"=>"Vote", "event_id"=>"1", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"2", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/1
+Completed in 24ms (DB: 6) | 302 Found [http://yoda/events/1/votes/2]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:12:14) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 85ms (View: 63, DB: 11) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:12:15) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 30ms (View: 1, DB: 9) | 200 OK [http://yoda/events/1/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 21:12:56) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["9", "13"]}, "commit"=>"Vote", "event_id"=>"1", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"2", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/1
+Completed in 24ms (DB: 6) | 302 Found [http://yoda/events/1/votes/2]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:12:56) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 272ms (View: 251, DB: 10) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:12:57) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 33ms (View: 1, DB: 10) | 200 OK [http://yoda/events/1/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:14:16) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 89ms (View: 66, DB: 11) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:14:17) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 235ms (View: 1, DB: 14) | 200 OK [http://yoda/events/1/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 21:14:19) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["9", "13"]}, "commit"=>"Vote", "event_id"=>"1", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"2", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/1
+Completed in 27ms (DB: 6) | 302 Found [http://yoda/events/1/votes/2]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:14:19) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 88ms (View: 65, DB: 12) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:14:20) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 30ms (View: 1, DB: 9) | 200 OK [http://yoda/events/1/results]
+
+
+Processing EventsController#edit (for 127.0.1.1 at 2009-08-24 21:14:28) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/edit
+Completed in 50ms (View: 36, DB: 10) | 200 OK [http://yoda/events/1/edit]
+
+
+Processing EventsController#update (for 127.0.1.1 at 2009-08-24 21:14:31) [PUT]
+  Parameters: {"commit"=>"Update", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"1", "event"=>{"startdate(1i)"=>"2009", "startdate(2i)"=>"8", "enddate(1i)"=>"2009", "startdate(3i)"=>"5", "enddate(2i)"=>"9", "curryhouse_ids"=>["1", "2", "3", "4", "5", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", ""], "enddate(3i)"=>"5"}, "controller"=>"events"}
+Redirected to http://yoda:3000/events/1
+Completed in 52ms (DB: 15) | 302 Found [http://yoda/events/1]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:14:31) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 84ms (View: 63, DB: 11) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:14:31) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 31ms (View: 1, DB: 9) | 200 OK [http://yoda/events/1/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 21:14:35) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["5", "9", "13"]}, "commit"=>"Vote", "event_id"=>"1", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"2", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/1
+Completed in 301ms (DB: 7) | 302 Found [http://yoda/events/1/votes/2]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:14:36) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 87ms (View: 65, DB: 11) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:14:36) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 34ms (View: 1, DB: 10) | 200 OK [http://yoda/events/1/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 21:15:20) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["5", "9", "12", "13"]}, "commit"=>"Vote", "event_id"=>"1", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"2", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/1
+Completed in 109ms (DB: 12) | 302 Found [http://yoda/events/1/votes/2]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:15:20) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 92ms (View: 70, DB: 12) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:15:21) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 37ms (View: 1, DB: 10) | 200 OK [http://yoda/events/1/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:16:53) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 205ms (View: 62, DB: 10) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:16:54) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 78ms (View: 2, DB: 29) | 200 OK [http://yoda/events/1/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 21:17:03) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["12", "13"]}, "commit"=>"Vote", "event_id"=>"1", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"3", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/1
+Completed in 126ms (DB: 7) | 302 Found [http://yoda/events/1/votes/3]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:17:03) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 88ms (View: 64, DB: 11) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:17:03) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 37ms (View: 1, DB: 14) | 200 OK [http://yoda/events/1/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 21:17:10) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["12", "13", "17"]}, "commit"=>"Vote", "event_id"=>"1", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"3", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/1
+Completed in 129ms (DB: 7) | 302 Found [http://yoda/events/1/votes/3]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 21:17:10) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 90ms (View: 69, DB: 10) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 21:17:11) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 34ms (View: 1, DB: 9) | 200 OK [http://yoda/events/1/results]
+
+
+Processing VotesController#index (for 127.0.1.1 at 2009-08-24 21:17:18) [GET]
+  Parameters: {"event_id"=>"1", "action"=>"index", "controller"=>"votes"}
+Rendering template within layouts/votes
+Rendering votes/index
+Completed in 16ms (View: 8, DB: 2) | 200 OK [http://yoda/events/1/votes]
+
+
+Processing VotesController#new (for 127.0.1.1 at 2009-08-24 21:17:21) [GET]
+  Parameters: {"event_id"=>"1", "action"=>"new", "controller"=>"votes"}
+Rendering template within layouts/votes
+Rendering votes/new
+Completed in 28ms (View: 15, DB: 9) | 200 OK [http://yoda/events/1/votes/new]
+
+
+Processing EventsController#update (for 127.0.1.1 at 2009-08-24 21:17:28) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["3", "5", "7", "10", "13"]}, "commit"=>"Create", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"1", "controller"=>"events"}
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/events_controller.rb:76:in `update'
+  app/controllers/events_controller.rb:75:in `update'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:25:35) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 303ms (View: 120, DB: 14) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:25:37) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 66ms (View: 1, DB: 14) | 200 OK [http://yoda/events/1/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:25:41) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["12", "13", "17"]}, "commit"=>"Vote", "event_id"=>"1", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"3", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/1
+Completed in 135ms (DB: 8) | 302 Found [http://yoda/events/1/votes/3]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:25:41) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 216ms (View: 74, DB: 13) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:25:42) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 36ms (View: 2, DB: 8) | 200 OK [http://yoda/events/1/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:25:46) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 366ms (View: 76, DB: 16) | 200 OK [http://yoda/events/1]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:25:47) [GET]
+  Parameters: {"action"=>"results", "id"=>"1", "controller"=>"events"}
+Completed in 52ms (View: 1, DB: 9) | 200 OK [http://yoda/events/1/results]
+
+
+Processing EventsController#index (for 127.0.1.1 at 2009-08-24 22:25:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/index
+Completed in 21ms (View: 16, DB: 2) | 200 OK [http://yoda/events]
+
+
+Processing EventsController#new (for 127.0.1.1 at 2009-08-24 22:25:56) [GET]
+  Parameters: {"action"=>"new", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/new
+Completed in 446ms (View: 435, DB: 7) | 200 OK [http://yoda/events/new]
+
+
+Processing EventsController#create (for 127.0.1.1 at 2009-08-24 22:26:13) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "event"=>{"startdate(1i)"=>"2009", "startdate(2i)"=>"8", "enddate(1i)"=>"2009", "startdate(3i)"=>"24", "enddate(2i)"=>"9", "curryhouse_ids"=>["3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", ""], "enddate(3i)"=>"24"}, "controller"=>"events"}
+Redirected to http://yoda:3000/events/2
+Completed in 146ms (DB: 15) | 302 Found [http://yoda/events]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:26:13) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 111ms (View: 11, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:26:14) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 32ms (View: 1, DB: 7) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#openvoting (for 127.0.1.1 at 2009-08-24 22:26:18) [GET]
+  Parameters: {"action"=>"openvoting", "id"=>"2", "controller"=>"events"}
+Redirected to http://yoda:3000/events/2
+Completed in 97ms (DB: 3) | 302 Found [http://yoda/events/2/openvoting]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:26:18) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 182ms (View: 73, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:26:18) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 32ms (View: 1, DB: 9) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:26:25) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["7", "12", "13"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"3", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 251ms (DB: 11) | 302 Found [http://yoda/events/2/votes/3]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:26:25) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 398ms (View: 270, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:26:26) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 34ms (View: 4, DB: 8) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:26:28) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 207ms (View: 92, DB: 13) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:26:29) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 98ms (View: 1, DB: 12) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:26:32) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 36ms (View: 1, DB: 11) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:26:37) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 36ms (View: 1, DB: 9) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:26:38) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 211ms (View: 88, DB: 10) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:26:39) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 237ms (View: 1, DB: 7) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:28:43) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 182ms (View: 78, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:28:44) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 151ms (View: 4, DB: 21) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:28:50) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["9", "10", "11"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"4", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 214ms (DB: 9) | 302 Found [http://yoda/events/2/votes/4]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:28:50) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 216ms (View: 80, DB: 12) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:28:51) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 66ms (View: 1, DB: 12) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:28:55) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["9", "10", "11", "13", "14"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"4", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 233ms (DB: 13) | 302 Found [http://yoda/events/2/votes/4]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:28:56) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 213ms (View: 80, DB: 14) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:28:57) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 61ms (View: 1, DB: 10) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:29:06) [PUT]
+  Parameters: {"vote"=>{"avail"=>["2009-09-07", "2009-09-16", "2009-09-23"], "curryhouse_ids"=>["9", "10", "11", "13", "14"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"4", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 312ms (DB: 12) | 302 Found [http://yoda/events/2/votes/4]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:29:06) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 217ms (View: 77, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:29:07) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 73ms (View: 1, DB: 13) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:29:22) [PUT]
+  Parameters: {"vote"=>{"avail"=>["2009-09-07", "2009-09-16", "2009-09-22"], "curryhouse_ids"=>["9", "10", "11", "13", "14"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"4", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 122ms (DB: 12) | 302 Found [http://yoda/events/2/votes/4]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:29:22) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 218ms (View: 77, DB: 10) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:29:23) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 98ms (View: 1, DB: 13) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:29:25) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 203ms (View: 84, DB: 13) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:29:26) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 105ms (View: 1, DB: 22) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:29:29) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 75ms (View: 1, DB: 11) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:30:14) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 201ms (View: 80, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:30:15) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 154ms (View: 1, DB: 24) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:30:22) [PUT]
+  Parameters: {"vote"=>{"avail"=>["2009-09-07", "2009-09-16"], "curryhouse_ids"=>["9", "10", "11", "13", "14"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"4", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 107ms (DB: 9) | 302 Found [http://yoda/events/2/votes/4]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:30:22) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 190ms (View: 68, DB: 10) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:30:23) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 67ms (View: 1, DB: 10) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:30:25) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 210ms (View: 70, DB: 13) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:30:26) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 133ms (View: 1, DB: 13) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:30:54) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 276ms (View: 75, DB: 12) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:30:55) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 98ms (View: 1, DB: 14) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:31:00) [PUT]
+  Parameters: {"vote"=>{"avail"=>["2009-09-16", "2009-09-22"], "curryhouse_ids"=>["9", "10", "11", "13", "14"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"4", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 309ms (DB: 16) | 302 Found [http://yoda/events/2/votes/4]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:31:00) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 493ms (View: 84, DB: 14) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:31:01) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 83ms (View: 1, DB: 14) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:32:04) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 195ms (View: 69, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:32:05) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 54ms (View: 1, DB: 7) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:33:48) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 182ms (View: 75, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:33:50) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 112ms (View: 1, DB: 24) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:34:02) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 182ms (View: 69, DB: 12) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:34:04) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 113ms (View: 1, DB: 15) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:34:12) [PUT]
+  Parameters: {"vote"=>{"avail"=>["2009-09-07", "2009-09-16", "2009-09-17"], "curryhouse_ids"=>["9", "10", "11", "13", "14"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"4", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 120ms (DB: 11) | 302 Found [http://yoda/events/2/votes/4]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:34:12) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 195ms (View: 84, DB: 13) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:34:13) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 80ms (View: 1, DB: 12) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:34:42) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 197ms (View: 73, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:34:43) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 127ms (View: 1, DB: 20) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:37:46) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 218ms (View: 75, DB: 14) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:37:47) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 124ms (View: 3, DB: 22) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:38:24) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 243ms (View: 111, DB: 12) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:38:26) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 212ms (View: 1, DB: 24) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:38:41) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 206ms (View: 79, DB: 13) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:38:42) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 198ms (View: 1, DB: 30) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:39:50) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 290ms (View: 125, DB: 12) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:39:51) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 154ms (View: 3, DB: 41) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:40:01) [PUT]
+  Parameters: {"vote"=>{"avail"=>["2009-09-07", "2009-09-10", "2009-09-16", "2009-09-17", "2009-09-19"], "curryhouse_ids"=>["9", "10", "11", "13", "14"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"4", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 141ms (DB: 9) | 302 Found [http://yoda/events/2/votes/4]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:40:01) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 242ms (View: 97, DB: 16) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:40:02) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 121ms (View: 1, DB: 5) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:40:13) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 202ms (View: 76, DB: 12) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:40:14) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 154ms (View: 1, DB: 39) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:41:17) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 279ms (View: 118, DB: 13) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:41:18) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 131ms (View: 1, DB: 35) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:43:48) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 209ms (View: 82, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:43:49) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 125ms (View: 1, DB: 26) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:44:10) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 272ms (View: 111, DB: 12) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:44:11) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 135ms (View: 1, DB: 41) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:44:14) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 168ms (View: 68, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:44:16) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 112ms (View: 2, DB: 16) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#edit (for 127.0.1.1 at 2009-08-24 22:44:23) [GET]
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"events"}
+Filter chain halted as [:super_user] rendered_or_redirected.
+Completed in 23ms (View: 20, DB: 0) | 401 Unauthorized [http://yoda/events/2/edit]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:44:25) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 68ms (View: 1, DB: 11) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#closevoting (for 127.0.1.1 at 2009-08-24 22:44:27) [GET]
+  Parameters: {"action"=>"closevoting", "id"=>"2", "controller"=>"events"}
+Filter chain halted as [:super_user] rendered_or_redirected.
+Completed in 4ms (View: 1, DB: 0) | 401 Unauthorized [http://yoda/events/2/closevoting]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:44:29) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 70ms (View: 1, DB: 12) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:44:35) [PUT]
+  Parameters: {"vote"=>{"avail"=>["2009-09-07", "2009-09-10", "2009-09-16", "2009-09-17", "2009-09-19"], "curryhouse_ids"=>["6", "9", "10", "11", "13", "14"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"4", "userid"=>"value1", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 229ms (DB: 12) | 302 Found [http://yoda/events/2/votes/4]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:44:36) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+
+ActionView::TemplateError (undefined method `include?' for nil:NilClass) on line #12 of app/views/votes/_vote.erb:
+9: <% @event.dates.each do |date|
+10:         if date > Date.today then
+11: %>
+12:         <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) %>
+13: 
+14:          <%= h date %>
+15:    <%end
+
+    app/views/votes/_vote.erb:12
+    app/views/votes/_vote.erb:9:in `each'
+    app/views/votes/_vote.erb:9
+    app/views/votes/_vote.erb:1
+    app/views/events/show.html.erb:31
+    app/controllers/events_controller.rb:32:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:44:38) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+
+ActionView::TemplateError (undefined method `include?' for nil:NilClass) on line #12 of app/views/votes/_vote.erb:
+9: <% @event.dates.each do |date|
+10:         if date > Date.today then
+11: %>
+12:         <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) %>
+13: 
+14:          <%= h date %>
+15:    <%end
+
+    app/views/votes/_vote.erb:12
+    app/views/votes/_vote.erb:9:in `each'
+    app/views/votes/_vote.erb:9
+    app/views/votes/_vote.erb:1
+    app/views/events/show.html.erb:31
+    app/controllers/events_controller.rb:32:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#index (for 127.0.1.1 at 2009-08-24 22:45:14) [GET]
+  Parameters: {"action"=>"index", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/index
+Completed in 29ms (View: 21, DB: 3) | 200 OK [http://yoda/events]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:45:19) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+
+ActionView::TemplateError (undefined method `include?' for nil:NilClass) on line #12 of app/views/votes/_vote.erb:
+9: <% @event.dates.each do |date|
+10:         if date > Date.today then
+11: %>
+12:         <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) %>
+13: 
+14:          <%= h date %>
+15:    <%end
+
+    app/views/votes/_vote.erb:12
+    app/views/votes/_vote.erb:9:in `each'
+    app/views/votes/_vote.erb:9
+    app/views/votes/_vote.erb:1
+    app/views/events/show.html.erb:31
+    app/controllers/events_controller.rb:32:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#edit (for 127.0.1.1 at 2009-08-24 22:45:22) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"events"}
+Filter chain halted as [:super_user] rendered_or_redirected.
+Completed in 5ms (View: 2, DB: 0) | 401 Unauthorized [http://yoda/events/1/edit]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:45:25) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+
+ActionView::TemplateError (undefined method `include?' for nil:NilClass) on line #12 of app/views/votes/_vote.erb:
+9: <% @event.dates.each do |date|
+10:         if date > Date.today then
+11: %>
+12:         <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) %>
+13: 
+14:          <%= h date %>
+15:    <%end
+
+    app/views/votes/_vote.erb:12
+    app/views/votes/_vote.erb:9:in `each'
+    app/views/votes/_vote.erb:9
+    app/views/votes/_vote.erb:1
+    app/views/events/show.html.erb:31
+    app/controllers/events_controller.rb:32:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:45:29) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+
+ActionView::TemplateError (undefined method `include?' for nil:NilClass) on line #12 of app/views/votes/_vote.erb:
+9: <% @event.dates.each do |date|
+10:         if date > Date.today then
+11: %>
+12:         <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) %>
+13: 
+14:          <%= h date %>
+15:    <%end
+
+    app/views/votes/_vote.erb:12
+    app/views/votes/_vote.erb:9:in `each'
+    app/views/votes/_vote.erb:9
+    app/views/votes/_vote.erb:1
+    app/views/events/show.html.erb:31
+    app/controllers/events_controller.rb:32:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#index (for 127.0.1.1 at 2009-08-24 22:46:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/index
+Completed in 31ms (View: 18, DB: 6) | 200 OK [http://yoda/events]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:46:11) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+
+ActionView::TemplateError (undefined method `include?' for nil:NilClass) on line #12 of app/views/votes/_vote.erb:
+9: <% @event.dates.each do |date|
+10:         if date > Date.today then
+11: %>
+12:         <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) %>
+13: 
+14:          <%= h date %>
+15:    <%end
+
+    app/views/votes/_vote.erb:12
+    app/views/votes/_vote.erb:9:in `each'
+    app/views/votes/_vote.erb:9
+    app/views/votes/_vote.erb:1
+    app/views/events/show.html.erb:31
+    app/controllers/events_controller.rb:32:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:46:12) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+
+ActionView::TemplateError (undefined method `include?' for nil:NilClass) on line #12 of app/views/votes/_vote.erb:
+9: <% @event.dates.each do |date|
+10:         if date > Date.today then
+11: %>
+12:         <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) %>
+13: 
+14:          <%= h date %>
+15:    <%end
+
+    app/views/votes/_vote.erb:12
+    app/views/votes/_vote.erb:9:in `each'
+    app/views/votes/_vote.erb:9
+    app/views/votes/_vote.erb:1
+    app/views/events/show.html.erb:31
+    app/controllers/events_controller.rb:32:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:46:44) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+
+ActionView::TemplateError (undefined method `include?' for nil:NilClass) on line #12 of app/views/votes/_vote.erb:
+9: <% @event.dates.each do |date|
+10:         if date > Date.today then
+11: %>
+12:         <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) %>
+13: 
+14:          <%= h date %>
+15:    <%end
+
+    app/views/votes/_vote.erb:12
+    app/views/votes/_vote.erb:9:in `each'
+    app/views/votes/_vote.erb:9
+    app/views/votes/_vote.erb:1
+    app/views/events/show.html.erb:31
+    app/controllers/events_controller.rb:32:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:47:00) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 274ms (View: 119, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:47:02) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 152ms (View: 1, DB: 18) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:47:15) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["9", "14"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"5", "userid"=>"value2", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 256ms (DB: 7) | 302 Found [http://yoda/events/2/votes/5]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:47:15) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 197ms (View: 79, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:47:16) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 93ms (View: 1, DB: 13) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:47:48) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 209ms (View: 81, DB: 12) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:47:49) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 154ms (View: 5, DB: 36) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:48:38) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 222ms (View: 89, DB: 13) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:48:39) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 154ms (View: 1, DB: 18) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:49:39) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 202ms (View: 89, DB: 12) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:49:40) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 226ms (View: 3, DB: 47) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:49:49) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 202ms (View: 83, DB: 16) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:49:51) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 171ms (View: 4, DB: 29) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:49:54) [PUT]
+  Parameters: {"vote"=>{"curryhouse_ids"=>["9", "12", "14"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"5", "userid"=>"value2", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 402ms (DB: 10) | 302 Found [http://yoda/events/2/votes/5]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:49:54) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 210ms (View: 90, DB: 13) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:49:55) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 103ms (View: 1, DB: 15) | 200 OK [http://yoda/events/2/results]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:50:16) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+
+ActionView::TemplateError (undefined method `include?' for nil:NilClass) on line #12 of app/views/votes/_vote.erb:
+9: <% @event.dates.each do |date|
+10:         if date > Date.today then
+11: %>
+12:         <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) %>
+13: 
+14: 
+15:          <%= h date %>
+
+    app/views/votes/_vote.erb:12
+    app/views/votes/_vote.erb:9:in `each'
+    app/views/votes/_vote.erb:9
+    app/views/votes/_vote.erb:1
+    app/views/events/show.html.erb:31
+    app/controllers/events_controller.rb:33:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:50:18) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+
+ActionView::TemplateError (undefined method `include?' for nil:NilClass) on line #12 of app/views/votes/_vote.erb:
+9: <% @event.dates.each do |date|
+10:         if date > Date.today then
+11: %>
+12:         <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) %>
+13: 
+14: 
+15:          <%= h date %>
+
+    app/views/votes/_vote.erb:12
+    app/views/votes/_vote.erb:9:in `each'
+    app/views/votes/_vote.erb:9
+    app/views/votes/_vote.erb:1
+    app/views/events/show.html.erb:31
+    app/controllers/events_controller.rb:33:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering /home/james/curry/public/500.html (500 Internal Server Error)
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:51:34) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 292ms (View: 127, DB: 13) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:51:35) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 166ms (View: 1, DB: 25) | 200 OK [http://yoda/events/2/results]
+
+
+Processing VotesController#update (for 127.0.1.1 at 2009-08-24 22:51:41) [PUT]
+  Parameters: {"vote"=>{"avail"=>["2009-09-23"], "curryhouse_ids"=>["9", "12", "14"]}, "commit"=>"Vote", "event_id"=>"2", "action"=>"update", "_method"=>"put", "authenticity_token"=>"5nUTdHX7gaN8BxRrJysHy1eGrop4OLvBQamD7+Vvm7Y=", "id"=>"5", "userid"=>"value2", "controller"=>"votes"}
+Redirected to http://yoda:3000/events/2
+Completed in 130ms (DB: 7) | 302 Found [http://yoda/events/2/votes/5]
+
+
+Processing EventsController#show (for 127.0.1.1 at 2009-08-24 22:51:41) [GET]
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"events"}
+Rendering template within layouts/events
+Rendering events/show
+Completed in 230ms (View: 85, DB: 11) | 200 OK [http://yoda/events/2]
+
+
+Processing EventsController#results (for 127.0.1.1 at 2009-08-24 22:51:42) [GET]
+  Parameters: {"action"=>"results", "id"=>"2", "controller"=>"events"}
+Completed in 267ms (View: 1, DB: 179) | 200 OK [http://yoda/events/2/results]

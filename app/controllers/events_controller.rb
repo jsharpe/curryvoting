@@ -18,13 +18,16 @@ class EventsController < ApplicationController
   def show
     @event = Event.find(params[:id])
     @myvote = Vote.find_by_userid(session[:userid])
-    puts @myvote
     if @myvote.nil? then
       @myvote = Vote.new
-      @myvote.userid= sesion[:userid]
+      @myvote.event_id= params[:id]
+      @myvote.userid= session[:userid]
     end
-    puts @myvote
     @myvote.save
+
+    @vote = @myvote
+
+    @graph = open_flash_chart_object(600,300,"/events/%i/results"%params[:id].to_i)
 
     respond_to do |format|
       format.html # show.html.erb
@@ -109,11 +112,7 @@ class EventsController < ApplicationController
 	@event.save
 	flash[:notice] = "Voting now closed"
 	redirect_to event_path
-end
-
-# Load ZiYa necessary helpers
-  helper Ziya::HtmlHelpers::Charts
-  helper Ziya::YamlHelpers::Charts
+  end
 
   def results
   	@event = Event.find(params[:id])
@@ -121,27 +120,43 @@ end
 	@event.curryhouses.each do |curryhouse|
 		count = 0
 	        Vote.find(@event.votes).map(&:curryhouse_ids).flatten!.each { |v| count = count +1 if v==curryhouse.id } rescue nil
-                vote_results << count
+                vote_results << HBarValue.new(0,count)
 	end
 
-	chart = Ziya::Charts::Bar.new("BAR", "my_bar")
-	chart.add :axis_category_text, @event.curryhouses.map(&:title)
-	chart.add :series, "Results", vote_results
-	#chart.add :theme, 'swf'
-	respond_to do |format|
-		format.xml { render :xml => chart.to_xml }
-	end
+	title = Title.new("Results")
+	hbar = HBar.new
+	hbar.values  = vote_results
+
+	chart = OpenFlashChart.new
+	chart.set_title(title)
+	chart.add_element(hbar)
+
+	y = YAxis.new
+	y.set_offset(true)
+	y.set_labels @event.curryhouses.map(&:title).reverse
+	chart.set_y_axis(y)
+
+	x = XAxis.new
+	x.set_range(0,10,1)
+	chart.set_x_axis(x)
+
+	render :text => chart.to_s
   end
 
 private
   def super_user
 	puts session[:userid]
-  	if !(session[:userid].to_i == 1006)
+  	if !(session[:userid].to_i == 1)
 	    render :inline => "Access Denied", :status=> 401, :layout => false
 	end
   end
 
   def authenticate
+	session[:userid]=2
+	session[:username]="Test"
+  end
+
+  def authenticate_new
   	require 'password'
 	require 'nis'
   	authenticate_or_request_with_http_basic "Curry" do |id, password|

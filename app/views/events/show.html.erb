@@ -16,25 +16,9 @@ Please vote for this months curry night below:
       <%end%>
 </p>
 -->
-<%= ziya_chart load_chart_url -%>
+<script type="text/javascript" src="/javascripts/swfobject.js"></script>
+<%= @graph %>
 </div>
-</div>
-
-<div class="dates">
-
-<p>
-  Select the dates you are not available:
-</p>
-
-<% @event.dates.each do |date|
-	if date > Date.today then
-%>
-        <%= check_box_tag "vote[date_ids][]", date.to_s, false %>
-
-	 <%= h date %>
-   <%end
-   end
-   %>
 </div>
 
 <div class="map">

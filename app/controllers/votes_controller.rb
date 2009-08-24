@@ -40,6 +40,7 @@ class VotesController < ApplicationController
     @vote = Vote.new(params[:vote])
     @vote.event = @event
     @vote.curryhouse_ids = params[:vote][:curryhouse_ids]
+    @vote.userid = session[:userid]
     respond_to do |format|
       if @vote.save
         flash[:notice] = 'Vote was successfully cast.'
