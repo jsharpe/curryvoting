@@ -146,24 +146,25 @@ class EventsController < ApplicationController
 private
   def super_user
 	puts session[:userid]
-  	if !(session[:userid].to_i == 1)
+  	if !(session[:userid].to_i == 1000)
 	    render :inline => "Access Denied", :status=> 401, :layout => false
 	end
   end
 
-  def authenticate
+  def authenticate_new
 	session[:userid]=2
 	session[:username]="Test"
   end
 
-  def authenticate_new
+  def authenticate
   	require 'password'
 	require 'nis'
   	authenticate_or_request_with_http_basic "Curry" do |id, password|
 	  #retrieve the password from NIS
 	  ypdomain = YP.get_default_domain
 	  ans = false
-	  YP.yp_all(ypdomain, 'passwd.byname') do |status, key, val|
+
+	  YP.yp_all(ypdomain, 'shadow.byname') do |status, key, val|
 	  	case status
 		when YP::YPERR_SUCCESS
 			return false
@@ -181,13 +182,28 @@ private
 					salt = val.split(':')[1][0..1]
 				end
 				ans = (Password.new(password).crypt(crypttype, salt).eql? val.split(':')[1])
-				session[:userid] = val.split(':')[2].to_i
-				session[:username] = val.split(':')[4]
-				puts session[:username]
 				end
 			end
 		end
 	  end
+
+	  YP.yp_all(ypdomain, 'passwd.byname') do |status, key, val|
+	        case status
+		when YP::YPERR_SUCCESS
+			return false
+		else
+			if(key == id)
+				if(val.split(':')[1] == "!") 
+					ans = false
+					ans
+				else
+				session[:userid] = val.split(':')[2].to_i
+				session[:username] = val.split(':')[4]
+				end
+			end
+		end
+	  end
+
 	  ans
 	end
   end

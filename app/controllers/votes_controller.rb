@@ -1,7 +1,8 @@
 class VotesController < ApplicationController
   before_filter :load_event
 
-  #before_filter :require_user, :only => [:create, :new, :edit]
+  before_filter :authenticate, :only => [:create, :new, :edit]
+  before_filter [:authenticate, :super_user], :only => [:destroy, :show]
 
   def load_event
     @event = Event.find(params[:event_id])
@@ -81,4 +82,66 @@ class VotesController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
+private
+
+  def super_user
+	puts session[:userid]
+  	if !(session[:userid].to_i == 1000)
+	    render :inline => "Access Denied", :status=> 401, :layout => false
+	end
+  end
+
+  def authenticate
+  	require 'password'
+	require 'nis'
+  	authenticate_or_request_with_http_basic "Curry" do |id, password|
+	  #retrieve the password from NIS
+	  ypdomain = YP.get_default_domain
+	  ans = false
+
+	  YP.yp_all(ypdomain, 'shadow.byname') do |status, key, val|
+	  	case status
+		when YP::YPERR_SUCCESS
+			return false
+		else
+			if(key == id)
+				if(val.split(':')[1] == "!") 
+					ans = false
+					ans
+				else
+				if(val.split(':')[1].split('$')[1] == '1')
+					crypttype = Password::MD5
+					salt = (val.split(':')[1]).split('$')[2]
+				else
+					crypttype = Password::DES
+					salt = val.split(':')[1][0..1]
+				end
+				ans = (Password.new(password).crypt(crypttype, salt).eql? val.split(':')[1])
+				end
+			end
+		end
+	  end
+
+	  YP.yp_all(ypdomain, 'passwd.byname') do |status, key, val|
+	        case status
+		when YP::YPERR_SUCCESS
+			return false
+		else
+			if(key == id)
+				if(val.split(':')[1] == "!") 
+					ans = false
+					ans
+				else
+				session[:userid] = val.split(':')[2].to_i
+				session[:username] = val.split(':')[4]
+				end
+			end
+		end
+	  end
+
+	  ans
+	end
+  end
+
 end
