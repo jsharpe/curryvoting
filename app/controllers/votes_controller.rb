@@ -1,7 +1,7 @@
 class VotesController < ApplicationController
   before_filter :load_event
 
-  before_filter :authenticate, :only => [:create, :new, :edit]
+  before_filter :authenticate, :only => [:create, :new, :edit, :update]
   before_filter [:authenticate, :super_user], :only => [:destroy, :show]
 
   def load_event

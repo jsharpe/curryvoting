@@ -27,6 +27,7 @@ class EventsController < ApplicationController
 
     @vote = @myvote
 
+    @dateresults = voting_results
     @graph = open_flash_chart_object(600,300,"/events/%i/results"%params[:id].to_i)
 
     respond_to do |format|
@@ -144,6 +145,37 @@ class EventsController < ApplicationController
   end
 
 private
+  def voting_results
+      @event = Event.find(params[:id])
+      @votes = Vote.find(@event.votes)
+      datecount = {}
+      if not @votes.nil?
+      @votes.each do |vote|
+        if vote and not vote.avail.nil?
+      	   vote.avail.each do |date|
+	     if Date.parse(date) > Date.today
+	        if datecount[date].nil?
+		   datecount[date] = 0
+                end
+	   	datecount[date] += 1
+             end
+	   end
+	end
+      end
+      end
+      
+      countdate = datecount.invert
+      maxkey = countdate.keys.max
+      if maxkey.nil?
+         if @votes.count > 0
+	    "This event has passed"
+	 else
+	    "No votes yet!"
+	 end
+      else
+	"Curry night will(probably) be happening on: "+ countdate[maxkey]
+      end
+  end
   def super_user
 	puts session[:userid]
   	if !(session[:userid].to_i == 1000)
