@@ -6,16 +6,30 @@
   Select the dates you are not available:
 </p>
 
+<table>
+<tr><th>Mon</th><th>Tue</th><th>Weds</th><th>Thurs</th><th>Fri</th></tr>
+<tr>
 <% @event.dates.each do |date|
-        if date > Date.today then
+        if date > Date.today and date.wday > 0 and date.wday < 6 then
+	   if date.wday == 1 then%>
+	      <tr>
+<%
+	   end
 %>
-        <%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) rescue check_box_tag "vote[avail][]", date.to_s, false %>
+        <td><div><%= check_box_tag "vote[avail][]", date.to_s, @vote.avail.include?(date.to_s) rescue check_box_tag "vote[avail][]", date.to_s, false %>
 
 
-         <%= h date %>
-   <%end
+         <%= h date.mday %></div></td>
+   <%
+	  if date.wday == 5 then%>
+	     </tr>
+   <%
+	  end
+	end
    end
    %>
+</tr>
+</table>
 </div>
 
 
